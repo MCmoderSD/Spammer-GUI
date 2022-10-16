@@ -6,12 +6,14 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class Spammer extends JFrame {
+
     private JButton startButton;
     private JTextField delayToStart;
     private JPanel mainPanel;
     private JTextField numberOfSpamms;
     private JTextField delayBetweenSpamms;
     private JTextField messageField;
+
 
     public Spammer() {
         Window();
@@ -54,7 +56,6 @@ public class Spammer extends JFrame {
     public void Window() {
         JFrame frame = new JFrame("Spammer");
         frame.setContentPane(mainPanel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
         setTitle("Spammer");
