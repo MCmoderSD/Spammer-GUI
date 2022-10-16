@@ -16,6 +16,13 @@ public class Spammer extends JFrame {
 
 
     public Spammer() {
+        KeyboardFocusManager.getCurrentKeyboardFocusManager()
+                .addKeyEventDispatcher(e -> {
+                    if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
+                        System.exit(0);
+                    }
+                    return false;
+                });
         Window();
         startButton.addActionListener(e -> {
             if (numberOfSpamms.getText().isEmpty() || delayBetweenSpamms.getText().isEmpty() || delayToStart.getText().isEmpty() || messageField.getText().isEmpty()) {
@@ -31,19 +38,25 @@ public class Spammer extends JFrame {
                             int delayStart = Integer.parseInt(delayToStart.getText());
                             StringSelection stringSelection = new StringSelection(message);
                             Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
-                            Thread.sleep(delayStart);
-                            for (int x = 0; x < times; x++) {
-                                robot.keyPress(KeyEvent.VK_CONTROL);
-                                robot.keyPress(KeyEvent.VK_V);
-                                robot.keyRelease(KeyEvent.VK_V);
-                                robot.keyRelease(KeyEvent.VK_CONTROL);
-                                robot.keyPress(KeyEvent.VK_DELETE);
-                                robot.keyRelease(KeyEvent.VK_DELETE);
-                                robot.keyPress(KeyEvent.VK_ENTER);
-                                robot.keyRelease(KeyEvent.VK_ENTER);
-                                Thread.sleep((delay + 1) * 1000L);
-                            }
-                        } catch (AWTException | InterruptedException e2) {
+                            new Thread(() -> {
+                                try {
+                                    Thread.sleep(delayStart);
+                                    for (int x = 0; x < times; x++) {
+                                        robot.keyPress(KeyEvent.VK_CONTROL);
+                                        robot.keyPress(KeyEvent.VK_V);
+                                        robot.keyRelease(KeyEvent.VK_V);
+                                        robot.keyRelease(KeyEvent.VK_CONTROL);
+                                        robot.keyPress(KeyEvent.VK_DELETE);
+                                        robot.keyRelease(KeyEvent.VK_DELETE);
+                                        robot.keyPress(KeyEvent.VK_ENTER);
+                                        robot.keyRelease(KeyEvent.VK_ENTER);
+                                        Thread.sleep((delay + 1) * 1000L);
+                                    }
+                                } catch (InterruptedException ex) {
+                                    throw new RuntimeException(ex);
+                                }
+                            }).start();
+                        } catch (AWTException e2) {
                             throw new RuntimeException(e2);
                         }
                 } else {
@@ -58,6 +71,7 @@ public class Spammer extends JFrame {
         frame.setContentPane(mainPanel);
         frame.pack();
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Spammer");
     }
 }
