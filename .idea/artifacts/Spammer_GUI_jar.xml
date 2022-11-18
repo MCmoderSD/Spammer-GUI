@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Spammer-GUI:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Spammer-GUI.jar">
+      <element id="module-output" name="Spammer-GUI" />
+    </root>
+  </artifact>
+</component>

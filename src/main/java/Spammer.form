@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Spammer.Spammer">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Spammer">
   <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="8" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="20" left="20" bottom="20" right="20"/>
     <constraints>
@@ -11,7 +11,7 @@
     </properties>
     <border type="none"/>
     <children>
-      <component id="1de11" class="javax.swing.JTextField" binding="messageField">
+      <component id="1de11" class="javax.swing.JTextField" binding="tfMessageField">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -32,7 +32,7 @@
           <text value="How many times:"/>
         </properties>
       </component>
-      <component id="f16e0" class="javax.swing.JTextField" binding="numberOfSpamms">
+      <component id="f16e0" class="javax.swing.JTextField" binding="tfNumberOfSpamms">
         <constraints>
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -53,7 +53,7 @@
           <text value="Message to Spam:"/>
         </properties>
       </component>
-      <component id="1a432" class="javax.swing.JTextField" binding="delayBetweenSpamms">
+      <component id="1a432" class="javax.swing.JTextField" binding="tfDelayBetweenSpamms">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -65,7 +65,7 @@
           <text value="0"/>
         </properties>
       </component>
-      <component id="58af9" class="javax.swing.JButton" binding="startButton">
+      <component id="58af9" class="javax.swing.JButton" binding="bStartButton">
         <constraints>
           <grid row="6" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -85,7 +85,7 @@
           <text value="Delay to start:"/>
         </properties>
       </component>
-      <component id="e3296" class="javax.swing.JTextField" binding="delayToStart">
+      <component id="e3296" class="javax.swing.JTextField" binding="tfDelayToStart">
         <constraints>
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>

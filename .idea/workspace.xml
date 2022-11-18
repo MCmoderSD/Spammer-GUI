@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Spammer:jar" />
+      <artifact name="Spammer-GUI:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,17 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eede22fc-f2b6-4f55-b478-63a7d35a6ea7" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spammer_GUI_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spammer_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spammer.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
-    <list id="a1f20eb3-899f-47e9-93aa-796a366d8611" name="Changes by Rebix" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java" afterDir="false" />
-    </list>
+    <list id="a1f20eb3-899f-47e9-93aa-796a366d8611" name="Changes by Rebix" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,61 +48,59 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/Spammer/Spammer.java">
-      <ranges>
-        <range start1="8" end1="8" start2="8" end2="9" changelist="eede22fc-f2b6-4f55-b478-63a7d35a6ea7" />
-        <range start1="15" end1="15" start2="16" end2="17" changelist="eede22fc-f2b6-4f55-b478-63a7d35a6ea7" />
-        <range start1="16" end1="16" start2="18" end2="25" changelist="a1f20eb3-899f-47e9-93aa-796a366d8611" />
-        <range start1="31" end1="44" start2="40" end2="59" changelist="a1f20eb3-899f-47e9-93aa-796a366d8611" />
-        <range start1="56" end1="57" start2="71" end2="71" changelist="eede22fc-f2b6-4f55-b478-63a7d35a6ea7" />
-        <range start1="59" end1="59" start2="73" end2="74" changelist="a1f20eb3-899f-47e9-93aa-796a366d8611" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2GDKIwiPQvd1cQlrpnzDq81X0vI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MCmoderSD/Desktop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/MCmoderSD/Desktop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Spammer-GUI\src\main\java" />
+      <recent name="C:\Users\MCmoderSD\IdeaProjects\Spammer-GUI\src\main\java\Functions" />
       <recent name="C:\Users\MCmoderSD\IdeaProjects\Spammer\src\main\java\Spammer" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="run" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <configuration name="Spammer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="run" />
-      <module name="Spammer" />
+      <option name="MAIN_CLASS_NAME" value="Spammer" />
+      <module name="Spammer-GUI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,6 +121,7 @@
       <workItem from="1665928273487" duration="288000" />
       <workItem from="1665929147653" duration="1036000" />
       <workItem from="1665931061671" duration="3110000" />
+      <workItem from="1668793250131" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665927631662</created>
@@ -161,6 +169,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
